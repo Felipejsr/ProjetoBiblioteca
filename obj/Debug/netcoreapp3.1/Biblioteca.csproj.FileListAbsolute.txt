@@ -51,3 +51,8 @@ C:\Users\felip\Downloads\EAD-Senac\Modulo2\Atv1\Biblioteca\obj\Debug\netcoreapp3
 C:\Users\felip\Downloads\EAD-Senac\Modulo2\Atv1\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.genruntimeconfig.cache
 C:\Users\felip\Downloads\EAD-Senac\Modulo2\Atv1\Biblioteca\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\felip\Downloads\EAD-Senac\Modulo2\Atv1\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.csprojAssemblyReference.cache
+C:\Users\felip\Downloads\EAD-Senac\Modulo2\Atv1\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\AcessoAdm.cshtml.g.cs
+C:\Users\felip\Downloads\EAD-Senac\Modulo2\Atv1\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\CadastrarUsuario.cshtml.g.cs
+C:\Users\felip\Downloads\EAD-Senac\Modulo2\Atv1\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\EditarUsuario.cshtml.g.cs
+C:\Users\felip\Downloads\EAD-Senac\Modulo2\Atv1\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\ExcluirUsuario.cshtml.g.cs
+C:\Users\felip\Downloads\EAD-Senac\Modulo2\Atv1\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\ListaUsuarios.cshtml.g.cs

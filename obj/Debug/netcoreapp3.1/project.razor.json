@@ -14402,8 +14402,28 @@
   "RootNamespace": "Biblioteca",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\felip\\Downloads\\EAD-Senac\\Modulo2\\Atv1\\Biblioteca\\Views\\Usuario\\CadastrarUsuario.cshtml",
+      "TargetPath": "Views\\Usuario\\CadastrarUsuario.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\felip\\Downloads\\EAD-Senac\\Modulo2\\Atv1\\Biblioteca\\Views\\Livro\\Edicao.cshtml",
       "TargetPath": "Views\\Livro\\Edicao.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\felip\\Downloads\\EAD-Senac\\Modulo2\\Atv1\\Biblioteca\\Views\\Usuario\\AcessoAdm.cshtml",
+      "TargetPath": "Views\\Usuario\\AcessoAdm.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\felip\\Downloads\\EAD-Senac\\Modulo2\\Atv1\\Biblioteca\\Views\\Usuario\\EditarUsuario.cshtml",
+      "TargetPath": "Views\\Usuario\\EditarUsuario.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\felip\\Downloads\\EAD-Senac\\Modulo2\\Atv1\\Biblioteca\\Views\\Usuario\\ExcluirUsuario.cshtml",
+      "TargetPath": "Views\\Usuario\\ExcluirUsuario.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14434,6 +14454,11 @@
     {
       "FilePath": "c:\\Users\\felip\\Downloads\\EAD-Senac\\Modulo2\\Atv1\\Biblioteca\\Views\\Livro\\Listagem.cshtml",
       "TargetPath": "Views\\Livro\\Listagem.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\felip\\Downloads\\EAD-Senac\\Modulo2\\Atv1\\Biblioteca\\Views\\Usuario\\ListaUsuarios.cshtml",
+      "TargetPath": "Views\\Usuario\\ListaUsuarios.cshtml",
       "FileKind": "mvc"
     },
     {

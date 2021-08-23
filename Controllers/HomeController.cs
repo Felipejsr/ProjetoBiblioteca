@@ -33,16 +33,21 @@ namespace Biblioteca.Controllers
         [HttpPost]
         public IActionResult Login(string login, string senha)
         {
-            if(login != "admin" || senha != "123")
+            if(!Autenticacao.ValidateLogin(login, senha, this))
             {
-                ViewData["Erro"] = "Senha inválida";
+                ViewData["Erro"] = "Login ou senha inválido!";
                 return View();
             }
             else
             {
-                HttpContext.Session.SetString("user", "admin");
                 return RedirectToAction("Index");
             }
+        }
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Clear();
+            Autenticacao.UsuarioLogado = null;
+            return RedirectToAction("Index");
         }
 
         public IActionResult Privacy()
