@@ -38,7 +38,7 @@ namespace Biblioteca.Models
                 Usuario u = bc.Usuarios.Find(user.ID);
                 u.Login = user.Login;
                 u.Nome = user.Login;
-                u.Senha = user.Senha;
+                u.Senha = Criptografo.TextoCriptografado(user.Senha);
                 u.Tipo = user.Tipo;
 
                 bc.SaveChanges();

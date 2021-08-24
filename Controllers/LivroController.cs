@@ -17,7 +17,7 @@ namespace Biblioteca.Controllers
         {
             LivroService livroService = new LivroService();
 
-            if(l.Id == 0)
+            if (l.Id == 0)
             {
                 livroService.Inserir(l);
             }
@@ -33,7 +33,7 @@ namespace Biblioteca.Controllers
         {
             Autenticacao.CheckLogin(this);
             FiltrosLivros objFiltro = null;
-            if(!string.IsNullOrEmpty(filtro))
+            if (!string.IsNullOrEmpty(filtro))
             {
                 objFiltro = new FiltrosLivros();
                 objFiltro.Filtro = filtro;
@@ -41,6 +41,7 @@ namespace Biblioteca.Controllers
             }
 
             ViewData["livrosPorPagina"] = (string.IsNullOrEmpty(itensPorPagina) ? 10 : Int32.Parse(itensPorPagina));
+            ViewData["PaginaAtual"] = (PaginaAtual != 0 ? PaginaAtual : 1);
 
             LivroService livroService = new LivroService();
             return View(livroService.ListarTodos(objFiltro));

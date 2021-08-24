@@ -62,8 +62,7 @@ namespace Biblioteca.Controllers
         public IActionResult ExcluirUsuario(Usuario user)
         {
             Autenticacao.CheckLogin(this, true);
-            Usuario us = Autenticacao.UsuarioService.Listar(user.ID);
-            Autenticacao.UsuarioService.AtualizaUsuario(user);
+            Autenticacao.UsuarioService.ExcluiUsuario(user.ID);
 
             return RedirectToAction("ListaUsuarios");
         }
